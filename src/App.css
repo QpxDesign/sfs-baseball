@@ -123,13 +123,12 @@ header img {
   }
 }
 .featuredPages-wrapper {
+  width: 100%;
   justify-content: center;
   margin-top: 2%;
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-auto-rows: minmax(20vh, auto);
-  grid-gap: 20px;
-  grid-template-areas: "header header" "sidebar content"  "sidebar content";
+  grid-template-columns: 15% 40% 30%;
+  grid-gap: 3em;
 }
 .featuredPage {
   border: 1px solid black;
@@ -139,8 +138,27 @@ header img {
 .featuredPage h1 {
   padding: 1%;
   padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: -.3em;
+  color: white;
 }
 .girditem-1 {
-  grid-area: header;
   min-width: fit-content;
+  padding: 3%;
+  padding-left: 1em;
+  border-radius: 2em;
+  margin-right: 2em;
+  border: none;
+  background-color:var(--maroon);
+}
+.girditem-1 h2{
+  font-weight: 500;
+  font-size: 1.5em;
+  color: white;
+}
+.girditem-1 .date {
+  text-decoration: underline;
+}
+.icon {
+  margin-right: .3em;
 }

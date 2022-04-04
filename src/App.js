@@ -1,5 +1,9 @@
 import "./App.css";
 import logo from "./logo.png"; // with import
+import { Icon } from "@iconify/react";
+
+const schedule = require("./schedule.json");
+const gameData = schedule["games"];
 
 function toggleDropdown() {
   if (document.getElementById("dropdownMenu-wrapper").style.display == "none") {
@@ -35,8 +39,25 @@ function App() {
       </div>
       <div className="featuredPages-wrapper">
         <div className="featuredPage girditem-1">
-          <h1>Upcoming Games</h1>
-          <div></div>
+          <h1>Schedule:</h1>
+          <div>
+            {gameData.map((a) => {
+              if (a.field == "Sidwell Friends") {
+                return (
+                  <h2>
+                    <Icon icon="ci:home-alt-fill" className="icon" />
+                    <span className="date">{a.date}</span> - {a.opponent}
+                  </h2>
+                );
+              }
+              return (
+                <h2>
+                  <Icon icon="fa-solid:car-side" className="icon" />
+                  <span className="date">{a.date}</span> - {a.opponent}
+                </h2>
+              );
+            })}
+          </div>
         </div>
         <div className="featuredPage girditem-2"></div>
         <div className="featuredPage girditem-3"></div>

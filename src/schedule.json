@@ -1,24 +1,214 @@
 {
-    "games": [
-        {
-            "id":1,
-            "team":"varsity",
-            "opponent":"Bullis",
-            "date":"3/15/22",
-            "time": "12:00pm",
-            "field":"Sidwell Friends",
-            "details":"SCRIMMAGE",
-            "outcome": null
-        },
-        {
-            "id":2,
-            "date":"3/15/22",
-            "time": "12:00pm",
-            "field":"Sidwell Friends",
-            "details":"SCRIMMAGE",
-            "outcome": "L (1-6)",
-
-        }
-            
-    ]
+  "games": [
+    {
+      "id": 1,
+      "team": "varsity",
+      "opponent": "Bullis",
+      "date": "3/05/22",
+      "time": "12:00pm",
+      "field": "Sidwell Friends",
+      "details": "SCRIMMAGE",
+      "outcome": null
+    },
+    {
+      "id": 2,
+      "team": "varsity",
+      "opponent": "St Albans",
+      "date": "3/11/22",
+      "time": "4:15pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "L (1-6)"
+    },
+    {
+      "id": 3,
+      "team": "varsity",
+      "opponent": "St Johns",
+      "date": "3/15/22",
+      "time": "4:15pm",
+      "field": "St. John's",
+      "details": "",
+      "outcome": "L (4-9)"
+    },
+    {
+      "id": 4,
+      "team": "varsity",
+      "opponent": "School Without Walls",
+      "date": "3/18/22",
+      "time": "4:00pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "L (0-3)"
+    },
+    {
+      "id": 5,
+      "team": "varsity",
+      "opponent": "Meridian",
+      "date": "3/22/22",
+      "time": "6:00pm",
+      "field": "Meridian",
+      "details": "",
+      "outcome": "L (7-9)"
+    },
+    {
+      "id": 6,
+      "team": "varsity",
+      "opponent": "Flint Hill",
+      "date": "3/29/22",
+      "time": "4:30pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "W (8-5)"
+    },
+    {
+      "id": 7,
+      "team": "varsity",
+      "opponent": "Landon",
+      "date": "4/2/22",
+      "time": "2:00pm",
+      "field": "Landon",
+      "details": "",
+      "outcome": "W (8-2)"
+    },
+    {
+      "id": 8,
+      "team": "varsity",
+      "opponent": "Georgetown Day",
+      "date": "4/5/22",
+      "time": "4:15pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 9,
+      "team": "varsity",
+      "opponent": "Potomac",
+      "date": "4/8/22",
+      "time": "4:30pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 10,
+      "team": "varsity",
+      "opponent": "Potomac",
+      "date": "4/8/22",
+      "time": "4:30pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 11,
+      "team": "varsity",
+      "opponent": "St. Andrews",
+      "date": "4/9/22",
+      "time": "1:00pm",
+      "field": "St. Andrews",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 12,
+      "team": "varsity",
+      "opponent": "Wilson",
+      "date": "4/11/22",
+      "time": "4:30pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 13,
+      "team": "varsity",
+      "opponent": "St James",
+      "date": "4/12/22",
+      "time": "4:30pm",
+      "field": "St James",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "Flint Hill",
+      "date": "4/14/22",
+      "time": "4:30pm",
+      "field": "Flint Hill",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "Maret",
+      "date": "4/19/22",
+      "time": "4:00pm",
+      "field": "Jelleff",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "Riverdale Baptist",
+      "date": "4/23/22",
+      "time": "12:00pm",
+      "field": "Riverdale Baptist",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "St. Andrews",
+      "date": "4/15/22",
+      "time": "4:15pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "Georgetown Day",
+      "date": "4/28/22",
+      "time": "4:15pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "Potomac",
+      "date": "5/03/22",
+      "time": "4:30pm",
+      "field": "Potomac",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "Maret",
+      "date": "5/05/22",
+      "time": "4:30pm",
+      "field": "Maret",
+      "details": "",
+      "outcome": "Unknown"
+    },
+    {
+      "id": 14,
+      "team": "varsity",
+      "opponent": "St. James",
+      "date": "5/07/22",
+      "time": "12:00pm",
+      "field": "Sidwell Friends",
+      "details": "",
+      "outcome": "Unknown"
+    }
+  ]
 }
